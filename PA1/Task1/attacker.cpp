@@ -18,7 +18,7 @@
 #include <iomanip>
 
 // this number varies on different systems
-#define MIN_CACHE_MISS_CYCLES (205)
+#define MIN_CACHE_MISS_CYCLES (155)
 // ************************************
 
 // AES S-Box
