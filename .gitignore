@@ -1,2 +1,4 @@
 openssl-1.1.0f.tar.gz
 openssl-1.1.0f
+*.zip
+.vscode
