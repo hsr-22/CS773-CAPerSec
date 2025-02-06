@@ -9,7 +9,7 @@
 #include <string.h>
 #include "utils.h"
 
-#define TIME_INTERVAL 0.00004
+#define TIME_INTERVAL 0.000004 //0.00004
 
 //Assembly code for clflush
 void clflush(void* ptr) {

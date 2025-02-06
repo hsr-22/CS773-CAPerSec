@@ -10,7 +10,7 @@
 #include <string.h>
 #include "utils.h"
 
-#define TIME_INTERVAL 0.00001
+#define TIME_INTERVAL 0.000001 //0.00001
 
 //comparator function for qsort
 int compare(const void *a, const void *b) {
@@ -124,7 +124,7 @@ int main(){
             average2 += (delta - average2) / ctr; // Calculate the average time-stamp counter difference for INDEX2
 
             // Store the values of average and average2 in a file
-            FILE *file = fopen("/average_output_file.txt", "a");
+            FILE *file = fopen("average_output_file.txt", "a");
             if (file != NULL) {
                 fprintf(file, "average: %f, average2: %f\n", average, average2);
                 fclose(file);
